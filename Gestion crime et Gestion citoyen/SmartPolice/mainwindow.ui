@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>619</width>
+    <height>375</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Smart Police Station</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>619</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCrime">
+    <property name="title">
+     <string>Crime</string>
+    </property>
+    <addaction name="actionCrime"/>
+   </widget>
+   <widget class="QMenu" name="menuCitoyen">
+    <property name="title">
+     <string>Citoyen</string>
+    </property>
+    <addaction name="actionCitoyen"/>
+   </widget>
+   <addaction name="menuCrime"/>
+   <addaction name="menuCitoyen"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCrime">
+   <property name="text">
+    <string>Crime</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionCitoyen">
+   <property name="text">
+    <string>Citoyen</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

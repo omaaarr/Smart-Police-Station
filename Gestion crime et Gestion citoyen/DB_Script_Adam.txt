@@ -1,0 +1,44 @@
+/*
+** Projet Police Station
+** Creation des tables 
+** Sous Projet: Crime et Citoyen
+**
+** Date: 15 mars 2021
+*/
+--
+--
+/* Table Crime */
+Create table Crime
+  (id number constraint pk_id primary key NOT NULL,
+   dateCrime date,
+   lieu varchar2(50),
+   categorie varchar2(50),   
+   description varchar2(200)
+   
+ );
+
+Create table citoyen(
+   cin varchar2(10) constraint pk_cin primary key NOT NULL,
+   nom varchar2(50),
+   prenom varchar2(50),
+   adresse varchar2(100),
+   telephone number,
+   email varchar2(50)
+  );
+
+
+INSERT INTO Citoyen (cIN, nom, prenom, adresse, telephone,email) 
+                      VALUES ('0002', 'adam','khaldi', 'Ariana', 33443,'email@email');
+
+
+
+
+
+
+
+
+
+2/ Imaginer/Dessiner sur le papier les écrans
+    1 écran par cas d'utilisation
+    exp: 
+     CU: creer un Crime
