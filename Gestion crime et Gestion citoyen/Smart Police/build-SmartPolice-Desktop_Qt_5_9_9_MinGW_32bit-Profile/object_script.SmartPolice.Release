@@ -1,0 +1,14 @@
+INPUT(
+./release\citoyen.o
+./release\connection.o
+./release\crime.o
+./release\main.o
+./release\mainwindow.o
+./release\smtp.o
+./release\widcitoyen.o
+./release\widcrime.o
+./release\moc_mainwindow.o
+./release\moc_smtp.o
+./release\moc_widcitoyen.o
+./release\moc_widcrime.o
+);

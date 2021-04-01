@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widcrime</class>
+ <widget class="QWidget" name="widcrime">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>643</width>
+    <height>359</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Crime</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>571</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Ajouter un Crime</string>
+    </attribute>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>40</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ID:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>70</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>date:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>100</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Lieu:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>200</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Description:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_id">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>40</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Le_lieu">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>100</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_Ajouter">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>150</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ajouter</string>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="de_date">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>70</y>
+       <width>110</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="te_description">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>150</y>
+       <width>341</width>
+       <height>141</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_Vol">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>40</y>
+       <width>82</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Vol</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_meurtre">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>60</y>
+       <width>82</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Meurtre</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_braquage">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>80</y>
+       <width>82</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Braquage</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_enlevement">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>100</y>
+       <width>82</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>enlevement</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="gb_categorie">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>10</y>
+       <width>141</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Categorie:</string>
+     </property>
+    </widget>
+    <zorder>gb_categorie</zorder>
+    <zorder>label</zorder>
+    <zorder>label_2</zorder>
+    <zorder>label_3</zorder>
+    <zorder>label_5</zorder>
+    <zorder>le_id</zorder>
+    <zorder>Le_lieu</zorder>
+    <zorder>pb_Ajouter</zorder>
+    <zorder>de_date</zorder>
+    <zorder>te_description</zorder>
+    <zorder>rb_Vol</zorder>
+    <zorder>rb_meurtre</zorder>
+    <zorder>rb_braquage</zorder>
+    <zorder>rb_enlevement</zorder>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Afficher</string>
+    </attribute>
+    <widget class="QTableView" name="Tab_crime">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>501</width>
+       <height>231</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Supprimer</string>
+    </attribute>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>40</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ID:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_id_supp">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>40</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_supprimer">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>130</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Supprimer</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>Recherche</string>
+    </attribute>
+    <widget class="QLineEdit" name="le_id_recherche">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>10</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ID:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Date:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Lieu:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_lieu_recherche">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>40</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tab_recherche">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>491</width>
+       <height>181</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_recherche">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>70</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>rechercher</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_date_recherche">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>70</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_tri_Date">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>40</y>
+       <width>70</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Date</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_tri_Lieu">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>70</y>
+       <width>70</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Lieu</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>10</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Trier par</string>
+     </property>
+    </widget>
+    <zorder>groupBox</zorder>
+    <zorder>le_id_recherche</zorder>
+    <zorder>label_4</zorder>
+    <zorder>label_6</zorder>
+    <zorder>label_8</zorder>
+    <zorder>le_lieu_recherche</zorder>
+    <zorder>tab_recherche</zorder>
+    <zorder>pb_recherche</zorder>
+    <zorder>le_date_recherche</zorder>
+    <zorder>cb_tri_Date</zorder>
+    <zorder>cb_tri_Lieu</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
