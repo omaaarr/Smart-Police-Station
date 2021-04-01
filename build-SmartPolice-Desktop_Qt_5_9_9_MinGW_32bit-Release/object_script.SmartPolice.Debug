@@ -1,0 +1,14 @@
+INPUT(
+./debug\citoyen.o
+./debug\connection.o
+./debug\crime.o
+./debug\main.o
+./debug\mainwindow.o
+./debug\smtp.o
+./debug\widcitoyen.o
+./debug\widcrime.o
+./debug\moc_mainwindow.o
+./debug\moc_smtp.o
+./debug\moc_widcitoyen.o
+./debug\moc_widcrime.o
+);
